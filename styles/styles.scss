@@ -4,12 +4,15 @@
 	box-sizing: border-box;
 }
 
-@mixin para($font) {
+@mixin para($font, $color) {
+	$mC: #{$color}f6cd#{$color};
+	$mmC: unquote(str-slice("##{$mC}", 0));
 	font-size: $font;
+	color: $mmC+$color*10;
 }
 
 @for $i from 1 through 6 {
 	.para#{$i } {
-		@include para(40/$i*4px);
+		@include para($i * 4+12px, $i);
 	}
 }

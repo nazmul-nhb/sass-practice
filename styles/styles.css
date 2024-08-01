@@ -5,25 +5,31 @@
 }
 
 .para1 {
-  font-size: 160px;
+  font-size: 16px;
+  color: #1f6cd110;
 }
 
 .para2 {
-  font-size: 80px;
+  font-size: 20px;
+  color: #2f6cd220;
 }
 
 .para3 {
-  font-size: 53.3333333333px;
+  font-size: 24px;
+  color: #3f6cd330;
 }
 
 .para4 {
-  font-size: 40px;
+  font-size: 28px;
+  color: #4f6cd440;
 }
 
 .para5 {
   font-size: 32px;
+  color: #5f6cd550;
 }
 
 .para6 {
-  font-size: 26.6666666667px;
+  font-size: 36px;
+  color: #6f6cd660;
 }/*# sourceMappingURL=styles.css.map */
