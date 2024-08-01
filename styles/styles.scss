@@ -8,7 +8,7 @@
 	$mC: #{$color}f6cd#{$color};
 	$mmC: unquote(str-slice("##{$mC}", 0));
 	font-size: $font;
-	color: $mmC+$color*10;
+	color: $mmC + $color * 16;
 }
 
 @for $i from 1 through 6 {
