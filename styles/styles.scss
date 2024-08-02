@@ -11,8 +11,17 @@
 	color: $mmC + $color * 16;
 }
 
-@for $i from 1 through 6 {
+// @for $i from 1 through 6 {
+// 	.para#{$i } {
+// 		@include para($i * 4+12px, $i);
+// 	}
+// }
+
+$i: 1;
+
+@while $i < 7 {
 	.para#{$i } {
 		@include para($i * 4+12px, $i);
 	}
+	$i: $i + 1;
 }
